@@ -1,12 +1,12 @@
 import pandas as pd
 import streamlit as st
-import plotly.express as px
+# import plotly.express as px
 import numpy as np
 from sklearn.utils.validation import joblib
 
 # intial template
-px.defaults.template = "plotly_dark"
-px.defaults.color_continuous_scale = "reds"
+# px.defaults.template = "plotly_dark"
+# px.defaults.color_continuous_scale = "reds"
 
 st.markdown("# 1. Informasi Data")
 # create content
